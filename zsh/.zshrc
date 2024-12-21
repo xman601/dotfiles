@@ -15,5 +15,6 @@ alias lg='lazygit'
 alias install='sudo dnf install'
 alias uninstall='sudo dnf remove'
 alias fetch='fastfetch'
+alias wifi='nm-applet'
 
 fetch
