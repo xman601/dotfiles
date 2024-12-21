@@ -16,5 +16,6 @@ alias install='sudo dnf install'
 alias uninstall='sudo dnf remove'
 alias fetch='fastfetch'
 alias wifi='nm-applet'
+alias db='distrobox'
 
 fetch
