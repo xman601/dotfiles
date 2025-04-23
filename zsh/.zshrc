@@ -13,8 +13,10 @@ alias project='cd ~/project && nvim'
 alias doc="cd ~/Documents"
 alias dow="cd ~/Downloads"
 alias lg='lazygit'
+alias update='sudo apt update && sudo apt upgrade -y'
 alias install='sudo apt install'
 alias uninstall='sudo apt remove'
 alias fetch='neofetch'
 
 neofetch
+#add w
