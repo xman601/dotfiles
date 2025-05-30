@@ -15,6 +15,8 @@ alias lg='lazygit'
 alias install='brew install'
 alias uninstall='brew remove'
 alias fetch='neofetch'
+alias ip='ifconfig | grep "inet 1"'
+alias pub-ip='curl ifconfig.me'
 
 # Activate syntax highlighting
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
