@@ -1,5 +1,6 @@
 # Starship
 export STARSHIP_CONFIG=$HOME/.config/starship.toml
+export MANPAGER="nvim +Man!"
 eval "$(starship init zsh)"
 
 alias ls='ls --color=auto'
@@ -17,6 +18,9 @@ alias update='sudo apt update && sudo apt upgrade -y'
 alias install='sudo apt install'
 alias uninstall='sudo apt remove'
 alias fetch='neofetch'
+alias ip='ifconfig | grep "inet 1"'
+alias pub-ip='curl ifconfig.me'
 
-neofetch
+./.cowsay_greetings.sh
+# neofetch
 #add w
