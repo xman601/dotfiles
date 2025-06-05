@@ -13,20 +13,15 @@ return {
     "rcarriga/nvim-notify",
   },
   config = function()
--- skip search_count messages instead of showing them as virtual text
     require("noice").setup({
       routes = {
-         {
+        -- Skip search_count messages
+        {
           filter = { event = "msg_show", kind = "search_count" },
           opts = { skip = true },
         },
-      },
-    })
-
--- always route any messages with more than 10 lines to the split view
-    require("noice").setup({
-      routes = {
-      {
+        -- Show long messages (10+ lines) in a split
+        {
         view = "split",
         filter = { event = "msg_show", min_height = 10},
         },
