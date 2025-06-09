@@ -31,3 +31,8 @@ ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 neofetch
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/cyber/.lmstudio/bin"
+# End of LM Studio CLI section
+
