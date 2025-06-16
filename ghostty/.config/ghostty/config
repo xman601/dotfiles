@@ -1,0 +1,9 @@
+theme = catppuccin-mocha
+font-family = JetBrainsMono Nerd Font
+# font-family = CaskaydiaMono Nerd Font
+# font-family = CaskaydiaCove Nerd Font
+font-size = 16
+# background-opacity = 0.95
+gtk-titlebar = true
+# custom-shader = /home/chris/bloom.glsl
+# custom-shader = /home/chris/crt.glsl
